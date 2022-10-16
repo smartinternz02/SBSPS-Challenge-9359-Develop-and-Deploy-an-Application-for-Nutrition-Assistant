@@ -30,5 +30,5 @@ Video -> https://www.youtube.com/watch?v=zzaR_ARSKfM&t=15s
 
 ------------------------              Images              ---------------------------
 
-![alt text](https://github.com/Atharva1011//blob/[branch]/image.jpg?raw=true)
+![alt text](https://github.com/Atharva1011/smartinternz02/blob/SBSPS-Challenge-9359-Develop-and-Deploy-an-Application-for-Nutrition-Assistant/image.jpg?raw=true)
  
