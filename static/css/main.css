@@ -118,7 +118,7 @@ section {
   line-height: 4.5rem;
   font-size: 2rem;
   background: #f7f7f7;
-  color: #130f40;
+  /* color: #130f40; */
   border-radius: 0.5rem;
   margin-left: 0.3rem;
   cursor: pointer;
@@ -126,11 +126,14 @@ section {
 }
 
 .header .icons div:hover {
-  color: #fff;
+  /* color: #fff; */
   background: #27ae60;
 }
 
-#menu-btn {
+
+.menu-bt{
+  color: #27ae60;
+  font-size: 23px;
   display: none;
 }
 
@@ -612,7 +615,7 @@ section {
 
 .about .content .icons-container .icons h3 {
   font-size: 1.7rem;
-  color: #130f40;
+  /* color: #130f40; */
 }
 
 .popular .box-container {
@@ -838,7 +841,7 @@ section {
 
 .order .icons-container .icons h3 {
   font-size: 2rem;
-  color: #130f40;
+  /* color: #130f40; */
   margin-top: 0.5rem;
 }
 
@@ -981,6 +984,44 @@ section {
   line-height: 2;
 }
 
+.profile
+{
+  height: 4.5rem;
+  width: 25rem;
+  line-height: 4.5rem;
+  font-size: 2rem;
+  /* background: #f7f7f7; */
+  /* color: #130f40; */
+  text-decoration: none;
+  border-radius: 0.5rem;
+  margin-left: 0.3rem;
+  cursor: pointer;
+  text-align: center;
+  display:flex;
+}
+
+.profile a{
+  color: rgb(97, 97, 97);
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+
+.profile div{
+  margin-left:5px;
+  /* margin-right:5px; */
+}
+
+/* .profile .navright:hover{
+  color: #fff;
+  background: #27ae60;
+  /* margin-left:0px;
+  margin-right:0px;
+} */
+
+.profile a:hover{
+  color:#27ae60;
+}
+
 .footer {
   background: #f7f7f7;
 }
@@ -1115,9 +1156,13 @@ section {
 }
 
 @media (max-width: 768px) {
-  #menu-btn {
-    display: inline-block;
+  .menu-bt {
+      display: block;
+      z-index: 999;
+  
   }
+
+
   .header .navbar {
     position: absolute;
     top: 99%;
@@ -1171,5 +1216,41 @@ section {
 
 .upload_img {
   width: 65%;
+}
+
+.profilehead
+{
+  color: #27ae60;
+  font-weight: bold;
+  font-size: 3.1rem;
+  text-align: center;
+  /* margin-left: 46%; */
+}
+
+table.center {
+  margin-left:auto; 
+  margin-right:auto;
+  margin-top: 2%;
+  border-radius: 50%;
+    border: 1px solid;
+    height: 120%;
+    width:60%;
+    padding: 20%;
+  
+}
+.pdetails
+{
+  font-size: 1.7rem;
+  margin-top: 4%;
+}
+
+td{
+  font-size: 1.5rem;
+}
+
+.details
+{
+  align-items: center;
+  text-align: center;
 }
 /*# sourceMappingURL=style.css.map */

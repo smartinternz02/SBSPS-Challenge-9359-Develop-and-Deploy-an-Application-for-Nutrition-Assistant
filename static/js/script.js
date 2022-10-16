@@ -12,3 +12,9 @@ document.querySelector(".home").onmouseleave = () => {
     ".home .home-parallax-img"
   ).style.transform = `translateX(0px) translateY(0px)`;
 };
+
+// toggle menu/navbar script
+$('.menu-btn').click(function(){
+  $('.navbar .menu').toggleClass("active");
+  $('.menu-btn i').toggleClass("active");
+});
